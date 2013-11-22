@@ -71,7 +71,7 @@ class ruby (
     $rubygems_update  = $ruby::params::rubygems_update,
     $ruby_dev         = $ruby::params::ruby_dev,
     $ruby_package     = $ruby::params::ruby_package,
-    $rubygems_package = $ruby::params::rubygems_package,
+    $rubygems_package = $ruby::params::rubygems_package
 ) inherits ruby::params {
 
   package { 'ruby':
